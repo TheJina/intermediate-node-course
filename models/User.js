@@ -1,8 +1,4 @@
 const mongoose = require('mongoose');
-const User=require('./models/User');
-
-
-mongoose.connect('mongodb://localhost/userData');
 
 const UserSchema = new mongoose.Schema({
   name: { type: String, required: true },
